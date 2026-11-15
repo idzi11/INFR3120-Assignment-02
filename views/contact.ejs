@@ -29,6 +29,32 @@
     </div>
 
     <div class="mb-3">
+      <label for="contactMethod" class="form-label">
+        How would you like to be contacted?
+      </label>
+      <select class="form-select" id="contactMethod" name="contactMethod">
+        <option value="">Select an option</option>
+        <option value="email">Email</option>
+        <option value="phone">Phone Call</option>
+        <option value="text">Text Message</option>
+      </select>
+    </div>
+
+    <div class="mb-3">
+      <label for="referralSource" class="form-label">
+        How did you hear about me?
+      </label>
+      <select class="form-select" id="referralSource" name="referralSource">
+        <option value="">Select an option</option>
+        <option value="linkedin">LinkedIn</option>
+        <option value="github">GitHub</option>
+        <option value="university">Ontario Tech University</option>
+        <option value="referral">Friend or Referral</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div class="mb-3">
       <label for="comments" class="form-label">Comments</label>
       <textarea class="form-control"
                 id="comments" name="comments"
