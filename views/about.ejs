@@ -1,7 +1,43 @@
 <%- include('partials/header.ejs') %>
 <%- include('partials/main.nav.ejs') %>
 
-<h1><%= title %></h1>
-<p>Welcome to <%= title %></p>
+<main class="container mt-5">
+  <h1>About Me</h1>
+
+  <h2>A little about me</h2>
+
+  <p>
+    I'm currently studying Technology Management at Ontario
+    Tech University, where I'm learning how business and
+    technology work together. I'm interested in using
+    technology to solve problems, improve business processes,
+    and bring ideas to life.
+  </p>
+
+   <p>
+    Outside of school, I enjoy watching anime, exploring
+    creative projects, and trying new things. I also enjoy
+    being involved in student clubs and finding opportunities
+    to collaborate with others.
+  </p>
+
+  <p>
+    In the future, I hope to use my skills to help businesses
+    grow and succeed.
+  </p>
+
+  <h2>Get to Know Me</h2>
+
+  <img src="/images/IMG_2015.jpeg"
+        alt="Photo of Idayi"
+        width="300">
+
+    <h3>My Introduction Video</h3>
+
+    <video width="400" controls>
+        <source src="/images/about_me_video.mp4" type="video/mp4">
+        Your browser doe not support the video tag.
+    </video>
+</main>
 
 <%- include('partials/footer.ejs') %>

@@ -1,7 +1,44 @@
 <%- include('partials/header.ejs') %>
 <%- include('partials/main.nav.ejs') %>
 
-<h1><%= title %></h1>
-<p>Welcome to my Contact Me page!</p>
+<main class="container mt-5">
+  <h1>Contact Me</h1>
+
+  <p>
+    Have a question or want to get in touch?
+    Feel free to contact me!
+  </p>
+
+  <form>
+    <div class="mb-3">
+      <label for="name" class="form-label">Name</label>
+      <input type="text" class="form-control"
+             id="name" name="name" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control"
+             id="email" name="email" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="tel" class="form-label">Cell No.</label>
+      <input type="tel" class="form-control"
+             id="tel" name="tel">
+    </div>
+
+    <div class="mb-3">
+      <label for="comments" class="form-label">Comments</label>
+      <textarea class="form-control"
+                id="comments" name="comments"
+                rows="4"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">
+      Submit
+    </button>
+  </form>
+</main>
 
 <%- include('partials/footer.ejs') %>

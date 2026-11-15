@@ -6,3 +6,101 @@ body {
 a {
   color: #00B7FF;
 }
+
+
+
+
+/* Portfolio Theme - Pink and Sage */
+
+/* Page */
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background-color: #483e4e !important;
+  color: #4e2534 !important;
+}
+
+/* Headings */
+h1, h2 {
+  color: #db9eb0 !important
+}
+
+/* Paragraphs */
+p {
+  color: #F6ECEF;
+}
+
+body {
+  padding-bottom: 80px;
+}
+
+/* Navigation and footer */
+.navbar.bg-dark {
+  background-color: #AFC3A0 !important;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .navbar-text {
+  color: #242027 !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #682D43 !important;
+}
+
+
+/* Project cards */
+article {
+  background-color: #AFC3A0;
+  color: #242027;
+  border-left: 5px solid #4e2534;
+  border-radius: 16px;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+
+article p {
+  color: #532c3b;
+}
+
+article h3 {
+  color: #682D43;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #A84F70;
+  border-color: #A84F70;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #682D43;
+  border-color: #682D43;
+  color: white;
+}
+
+/* Contact form */
+.form-label {
+  color: #D9A0BD;
+}
+
+.form-control {
+  background-color: #F6ECEF;
+  color: #242027;
+  border-color: #AFC3A0;
+}
+
+/* Footer social links */
+.navbar a {
+  color: #682D43;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #A84F70;
+}
+
